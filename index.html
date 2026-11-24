@@ -6,40 +6,47 @@
     <link rel="stylesheet" href="./style.css">
     <title>Lens & Light</title>
 </head>
-
+<!-- Start of webpage navigation bar-->
 <body>
     <nav>
-    <ul>
-        <li>Lens & Light</li>
-        <li>PORTFOLIO</li>
-        <LI>SESSIONS</LI>
-        <LI>ENQUIRE</LI>
+    <ul id="navigators">
+        <li class="home">Lens & Light</li>
+        <li class="tops">PORTFOLIO</li>
+        <li class="tops">SESSIONS</li>
+        <li class="tops">ENQUIRE</li>
     </ul>
     </nav>
-    <h1>Moments, kept</h1>
-    <p>Weddings, portraits and brand photography with a natural, documentary eye.</p>
+<!-- page highlight -->
+    <div id="intro">
+    <h1>Moments, <br> kept.</h1>
+    <p class="introp">Weddings, portraits and brand photography with a <br> natural, documentary eye.</p>
+    </div>
+<!-- Images section -->
     <div>
-        <ul>
-            <li><img class = "image" src="./index.jpg" alt=""></li>
-            <li><img class = "image" src="" alt=""></li>
-            <li><img class = "image" src="" alt=""></li>
-            <li><img class = "image" src="" alt=""></li>
-            <li><img class = "image" src="" alt=""></li>
-            <li><img class = "image" src="" alt=""></li>
+        <ul id="container">
+            <li class="imgs"><img class = "image">[Photo: details]</li>
+            <li class="imgs"><img class = "image">[Photo: wedding couple]</li>
+            <li class="imgs"><img class = "image">[Photo: landscape]</li>
+            <li class="imgs"><img class = "image">[Photo: portrait]</li>
+            <li class="imgs"><img class = "image">[Photo: family]</li>
+            <li class="imgs"><img class = "image">[Photo: product shoot]</li>
         </ul>
     </div>
+<!-- Product/service list -->
     <footer>
-        <ul>
-            <li><div><h1>Weddings</h1><p>Full-day coverage and online gallery.</p><p>From [PRICE]</p></div></li>
-            <li><div><h1>Portraits</h1><p>One hour, outdoors or in studio.</p><p>From [PRICE]</p></div></li>
-            <li><div><h1>Brands</h1><p>Products, teams and spaces for the web.</p><p>From [PRICE]</p></div></li>
+        <ul id="items">
+            <li><div class="item"><hr><h2 class="item">Weddings</h2><p class="item">Full-day coverage and online gallery.</p><p class="price">From [PRICE]</p></div></li>
+            <li><div class="item"><hr><h2 class="item">Portraits</h2><p class="item">One hour, outdoors or in studio.</p><p class="price">From [PRICE]</p></div></li>
+            <li><div class="item"><hr><h2 class="item">Brands</h2><p class="item">Products, teams and spaces for the web.</p><p class="price">From [PRICE]</p></div></li>
         </ul>
-        <div>
-            <h1>Tell me your story</h1>
-            <p>Share your date and ideas, and I'll reply within two days.</p>
-            <button>[EMAIL ADDRESS]</button>
-            <P>[Phone number] • © Lens & Light Photography</P>
+        <!-- final part of the page -->
+        <div id="ending">
+            <h2 class="hend">Tell me your story</h2>
+            <p class="pend">Share your date and ideas, and I'll reply within two days.</p>
+            <button class="bend">[EMAIL ADDRESS]</button>
+            <P class="pend2">[Phone number] • © Lens & Light Photography</P>
         </div>
     </footer>
+
 </body>
 </html>
